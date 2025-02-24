@@ -1,7 +1,7 @@
 void countryNames(int i) {
   textAlign(CORNER, CORNER);
   textFont(font);
-  fill(0);
+  fill(43, 55, 79);
   textSize(23);
   text(countryNames[i], xPos[i]+50, yPos[i]+23);
 }

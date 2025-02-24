@@ -100,7 +100,7 @@ void setText(int theRectX,int theRectY) {
     textFont(font);
 
 
-    fill(0);
+    fill(43, 55, 79);
     textSize(23);
     textAlign(CORNER, CORNER);
     text(allCountryNames[i], theRectX+50, (theRectY-12));
